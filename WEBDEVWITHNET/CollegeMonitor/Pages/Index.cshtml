@@ -8,3 +8,29 @@
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
 </div>
+
+@* 1. print numbers from 1 to 1000
+2. print multiplication table for 45 *@
+
+@for (int i = 1; i <= 1000; i++)
+{
+    @i if (i < 1000)
+    {
+        @Html.Raw(", ")
+    }
+}
+
+<h2 style="color: blue;">Multiplication table for 45:</h2>
+<table border="1">
+    <tr>
+        <th>Multiplication</th>
+        <th>Product</th>
+    </tr>
+    @for (int i = 1; i <= 10; i++)
+    {
+        <tr>
+            <td>45*@i</td>
+            <td>=@(45 * i)</td>
+        </tr>
+    }
+</table>
