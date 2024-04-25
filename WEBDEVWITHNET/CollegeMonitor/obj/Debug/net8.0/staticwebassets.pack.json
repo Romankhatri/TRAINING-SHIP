@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\CollegeMonitor.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\learn\\Desktop\\Trainingship\\WEBDEVWITHNET\\CollegeMonitor\\wwwroot\\Images\\college_Landscape.jpg",
+      "PackagePath": "staticwebassets\\Images\\college_Landscape.jpg"
+    },
+    {
       "Id": "C:\\Users\\learn\\Desktop\\Trainingship\\WEBDEVWITHNET\\CollegeMonitor\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

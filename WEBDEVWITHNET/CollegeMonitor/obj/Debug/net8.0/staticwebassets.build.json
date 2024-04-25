@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kweIeJVNWnb4I8BCknaX/OLbjzy9HF0uwlRaVVD/NXU=",
+  "Hash": "YX3+CtncQn3iljBV4wWeVr2G4pbO/HRBSub3Q/g3H98=",
   "Source": "CollegeMonitor",
   "BasePath": "_content/CollegeMonitor",
   "Mode": "Default",
@@ -91,6 +91,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\learn\\Desktop\\Trainingship\\WEBDEVWITHNET\\CollegeMonitor\\wwwroot\\Images\\college_Landscape.jpg",
+      "SourceId": "CollegeMonitor",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\learn\\Desktop\\Trainingship\\WEBDEVWITHNET\\CollegeMonitor\\wwwroot\\",
+      "BasePath": "_content/CollegeMonitor",
+      "RelativePath": "Images/college_Landscape.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\college_Landscape.jpg"
     },
     {
       "Identity": "C:\\Users\\learn\\Desktop\\Trainingship\\WEBDEVWITHNET\\CollegeMonitor\\wwwroot\\js\\site.js",

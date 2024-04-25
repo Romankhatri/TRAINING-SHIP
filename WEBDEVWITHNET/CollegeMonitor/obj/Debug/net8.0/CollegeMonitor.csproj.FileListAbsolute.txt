@@ -28,3 +28,4 @@ C:\Users\learn\Desktop\Trainingship\WEBDEVWITHNET\CollegeMonitor\obj\Debug\net8.
 C:\Users\learn\Desktop\Trainingship\WEBDEVWITHNET\CollegeMonitor\obj\Debug\net8.0\CollegeMonitor.pdb
 C:\Users\learn\Desktop\Trainingship\WEBDEVWITHNET\CollegeMonitor\obj\Debug\net8.0\CollegeMonitor.genruntimeconfig.cache
 C:\Users\learn\Desktop\Trainingship\WEBDEVWITHNET\CollegeMonitor\obj\Debug\net8.0\ref\CollegeMonitor.dll
+C:\Users\learn\Desktop\Trainingship\WEBDEVWITHNET\CollegeMonitor\obj\Debug\net8.0\CollegeMonitor.sourcelink.json
