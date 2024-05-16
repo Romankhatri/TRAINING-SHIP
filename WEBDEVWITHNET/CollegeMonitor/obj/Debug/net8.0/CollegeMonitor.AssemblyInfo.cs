@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CollegeMonitor")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+118d053aa062b18eaba782a08dc338f5e91ec93d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c70a3b992b0473c43d07f56bee041b67b89a4bc")]
 [assembly: System.Reflection.AssemblyProductAttribute("CollegeMonitor")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CollegeMonitor")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,36 @@
+@page "/Courses"
+@model CoursesModel
+
+<a href="/Courses/Create" class="btn btn-success"><i class="bi bi-plus-lg"></i> New Course</a>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Name</th>
+            <th scope="col">TextBook</th>
+            <th scope="col">Credit Hours</th>
+            @* <th scope="col">Actions</th> <!-- New column for actions --> *@
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int counter = 1;
+        }
+        @foreach(var course in Model.Courses)
+        {
+            <tr>
+                <th scope="row">@(counter++)</th>
+                <td>@course.Name</td>
+                <td>@course.TextBook</td>
+                <td>@course.CreditHrs</td>
+                <td>
+                <!-- Edit button -->
+                    <a href="/Courses/Edit/@course.Id" ><i class="bi bi-pen"></i></a> 
+                <!-- Delete button -->
+                    <a href="/Courses/Delete/@course.Id"><i class="bi bi-trash"></i></a> 
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

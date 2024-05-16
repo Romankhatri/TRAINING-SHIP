@@ -1,0 +1,54 @@
+@page "/Sessions"
+@model CollegeMonitor.Pages_Sessions.IndexModel
+
+<p>
+    <a asp-page="Create"><i class="bi bi-plus-lg"></i>Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Session[0].Title)
+            </th>
+            <th>
+                Course
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Session[0].Start)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Session[0].DurationInHours)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Session[0].Details)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Session) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @(item.Course?.Name?? "N/A")
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Start)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DurationInHours)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Details)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.Id"><i class="bi bi-pen"></i></a> 
+                <a asp-page="./Details" asp-route-id="@item.Id"><i class="bi bi-file-earmark-text"></i></a> 
+                <a asp-page="./Delete" asp-route-id="@item.Id"><i class="bi bi-trash"></i></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
